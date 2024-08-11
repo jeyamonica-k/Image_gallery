@@ -1,7 +1,11 @@
 *{
   background-color: skyblue;
-  margin-left: 30px;
+  margin-left: 3%;
   box-sizing: content-box;
+}
+.header{
+  text-align:center;
+  font-size: 3rem;
 }
 .container{
   display: flex;
@@ -30,4 +34,17 @@
 .course_card h1{
   text-align: center;
   text-decoration: underline;
+}
+
+
+@media screen and (max-width:550px) {
+  body{
+    margin-left: 1%;
+  }
+  .header{
+    font-size: 2rem;
+  }
+  .course_card h1{
+    font-size:  1rem;
+  }
 }
